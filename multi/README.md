@@ -5,9 +5,51 @@
 >> 기존것들은 시간되는 대로 정리할 예정
 
 
-### 6월 10일
 
-머신 러징 Data preparation에 대한 철차를 확인함
+## 6월 11일
+
+오늘의 KEY POINT는 머신러닝의 대표적인 방법론인
+**CRISP_DM** 모델에 대해 집중적으로 확인했다
+1. 이전에 배웠던 차원에 대한 축소가 필요하나 그와 동시에 비지니스 이해와 데이터의 이해를 통한 파생변수에 대한 정리도 필요하다.
+2. 하지만, 우리가 사전 학습된 모델에서부터 머신러닝을 시작할 경우, model+dataset에 BIAS가 있을 수 있음을 이해해야 한다.
+3. 따라서 우리가 어떤 프로젝트를 할때, CRISP-DM 모델로 진행하는 단계들을 표시하면서, 내가 시작한 지점이 어디인지도 보고서 형식으로 작성하는게 중요하다
+4. CRISP-DM외에도 다른 방법론들이 있다. e.g.)Microsoft AZURE model
+
+### [[머신 러닝 Data preparation에 대한 절차]]
+5. One Hot encoding
+    변수의 개수만큼 비트를 잡아 고유한 범주들에 매핑하는 작업
+    e.g.)1~7로 작성된 월요일~일요일에 대한 데이터 값을 요일별 7개의 열로 나누어 값을 매핑
+6. label encoding
+    각각의 변수에 대해 변수개수-1개만큼 값을 지정하여 매핑
+    e.g.) Male/Female => 0/1로 치환, 
+
+### [[Feature selection method 선택방법]]
+![image](https://user-images.githubusercontent.com/85263094/121691996-9380d880-cb02-11eb-9fe7-ece5acb4d91b.png)
+선생님 강의 자료
+Pearson : 변수간 데이터가 선형인 경우
+spearman : 변수간 데이터가 비선형인 경우
+Chi : 범주형 변수값이 여러개인 경우 쓰이나 실제로는 그런 경우 ANOVA 분석을 여러개 만들어 해결한다고 한다.
+
++ 중간평가 : 다행히 PASS...
+
+>> 수업 진행한 파일들(내 컴퓨터 기준, 기타 PPT/Csv파일등은 제외)
+>>  KBinsDiscretizer.ipynb
+>>  Classification Feature Selection.ipynb
+>>  one hot encode.ipynb
+
+>> 수업에 참고한 링크들
+>> https://docs.microsoft.com/ko-kr/azure/machine-learning/team-data-science-process/overview
+>> https://www.2e.co.kr/news/articleView.html?idxno=301010
+>> https://www.hanbit.co.kr/support/supplement_list.html
+>> https://www.youtube.com/watch?v=vusSCU-gn4A
+
+
+
+ 
+ 
+## 6월 10일
+
+머신 러닝 Data preparation에 대한 절차를 확인함
 그 중,
 
 1. 데이터를 준비/수집하고
@@ -16,8 +58,7 @@
 3. 특징 추출(RFE)
     목표변수와 비교하여 분석에 필요한 column을 골라내서 분석할 차원을 줄여줌
     RFE분석은 Tree 알고리즘에 넣어서 decision하게됨
-4. 데이터 정규화
-5. Normalization과 Standardization
+4. 데이터 정규화(Normalization과 Standardization)
     Normalization : 정규분포로 만드는 작업.
     Standardization : 표준정규분포로 만드는 작업(평균이 0, 분산이 1이 되도록)
     
@@ -52,7 +93,9 @@ PCA2.ipynb
 >> https://www.youtube.com/watch?v=e50Bj7jn9IQ
 
 
-### 6월 09일
+ 
+ 
+## 6월 09일
 
 Recall / Precision의 구분. 개념정리
 보통 imbalanced된 data set에서는 Recall 매트릭스로 진행함
