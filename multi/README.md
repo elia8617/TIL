@@ -4,6 +4,42 @@
 참고했던 사이트나 자료 무작위로 같이 첨부할 예정
 >> 기존것들은 시간되는 대로 정리할 예정
 
+
+## 6월 16일
+SQL Workbench : 직관적으로 데이터셋을 분석할 수 있도록 도와주는 툴
+오늘은 SEABORN과 matplotlib 등을 통해 데이터를 Visualization하는 법들을 배움
+SEABORN은 HUE라는 카테고리가 있는데 X-Y data set에서 하나의 분리요소로 CLASS가 있는 라벨을 삽입하는 개념이 있다
+SEABORN에서는 REGRESSION을 통해 데이터를 의미있게 사용/분석할 수 있다
+tip.csv파일을 통해 우리가 추가 변수를 만들고 그 변수를 분석에 이용해봄
+target = y hat(통계용어) = 목표변수
+**생각해볼 수 있는 목표변수**
+1. 매출
+2. 팁
+3. 요일별 사이즈
+4. tip rate
+5. 요일별 방문예상팀수
+pairplot을 이용한 쌍대비교
+데이터는 어떻게 분석하는지도 중요하지만 **무엇을 예측해야하는지**가 제일 중요하다
+
+>> 수업 진행한 파일들(내 컴퓨터 기준, 기타 PPT/Csv파일등은 제외)
+>> 3-matplotlib.ipynb
+>> 4-seaborn.ipynb
+>> plot1.ipynb
+>> tips_pandas.ipynb 등..
+
+>> 수업에 참고한 링크들
+>> https://pandas.pydata.org/pandas-docs/stable/getting_started/comparison/comparison_with_sql.html#compare-with-sql
+>> https://matplotlib.org/stable/tutorials/introductory/usage.html#sphx-glr-tutorials-introductory-usage-py
+>> https://seaborn.pydata.org/tutorial/regression.html#functions-to-draw-linear-regression-models 
+
+
+
+## 6월 15일
+
+잉...??? 어제 분명 작성했는데 사라짐 ㅠㅠㅠㅠ
+JOIN LEFT JOIN이런거 했는데;;
+
+
 ## 6월 14일
 
 오늘부터는 풀스택 프로그래밍으로 SQL설치부터 Data understanding의 개념등을 배웠다
