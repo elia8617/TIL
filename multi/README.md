@@ -4,6 +4,11 @@
 참고했던 사이트나 자료 무작위로 같이 첨부할 예정
 >> 기존것들은 시간되는 대로 정리할 예정
 
+## 6월 18일
+Regression과 classification의 차이
+regresstion (회귀분석)은 연속적인 값들에 대한 분석에 사용
+Classification은 카테고리화된 데이터들에 대한 분석에 사용
+
 
 ## 6월 17일
 tip.csv파일로 계속 돌려보는 수업
