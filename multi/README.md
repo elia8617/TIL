@@ -4,6 +4,16 @@
 참고했던 사이트나 자료 무작위로 같이 첨부할 예정
 >> 기존것들은 시간되는 대로 정리할 예정
 
+## 6월 22일
+project 미팅 2차
+디장고 셋업
+디장고 어드민 비번이 이상하게 되서 ㅋㅋㅋ admin아이디 날림ㅋㅋㅋ
+https://docs.djangoproject.com/ko/3.2/intro/tutorial02/
+
+## 6월 21일
+
+까먹음.... 비쥬얼스튜디오 셋업
+
 ## 6월 18일
 Regression과 classification의 차이
 regresstion (회귀분석)은 연속적인 값들에 대한 분석에 사용
